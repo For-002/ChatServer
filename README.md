@@ -1,4 +1,4 @@
-- [ChatServer](#chatserver)
+- [ChatServer简介](#chatserver)
 - [环境配置](#环境配置)
   - [nginx配置tcp负载均衡](#nginx配置tcp负载均衡)
   - [安装redis的C++库hiredis](#安装redis的c库hiredis)
@@ -6,7 +6,7 @@
     - [手动编译方法如下：](#手动编译方法如下)
 
 
-# ChatServer
+# ChatServer简介
 可以工作在nginx tcp负载均衡环境中的集群聊天服务器和客户端源码 基于nuduo库实现 使用了redis发布订阅消息队列 数据库采用MySQL
 
 # 环境配置
